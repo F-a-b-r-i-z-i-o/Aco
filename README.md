@@ -1,2 +1,2 @@
 # Aco
-Easy implementation Ant colony optimization algorithms
+Easy implementation of Ant colony optimization algorithms
