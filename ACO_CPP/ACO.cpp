@@ -52,13 +52,28 @@ int main()
 
   }
 
-  addEdge(graph, 0, 1, 14);
-  addEdge(graph, 0, 2, 32);
-  addEdge(graph, 0, 3, 17);
-  addEdge(graph, 0, 4, 52);
-  addEdge(graph, 0, 5, 42);
-  cout << "Cities Graph:" << '\n';
+addEdge(graph, 0, 1, 14);
+addEdge(graph, 0, 2, 32);
+addEdge(graph, 0, 3, 17);
+addEdge(graph, 0, 4, 52);
+addEdge(graph, 0, 5, 42);
 
+addEdge(graph, 1, 2, 36);
+addEdge(graph, 1, 3, 14);
+addEdge(graph, 1, 4, 25);
+addEdge(graph, 1, 5, 43);
 
+addEdge(graph, 2, 3, 40);
+addEdge(graph, 2, 4, 20);
+addEdge(graph, 2, 5, 23);
 
+addEdge(graph, 3, 4, 25);
+addEdge(graph, 3, 5, 24);
+
+addEdge(graph, 4, 5, 24);
+
+cout << "Cities Graph:" << '\n';
+
+printMAtrix<int>(graph);
+printMAtrix<double>(pherormone);
 }
