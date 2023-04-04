@@ -22,7 +22,7 @@ Here's a brief overview of the main components of the code:
 
 - **printMatrix():** This function is used to print the contents of a 2D matrix, such as the `graph` and `pheromone` arrays, to the console.
 
-- **selectNext():** This function is used by the ants to select the next city to visit based on the pheromone levels and the distances in the graph array. It calculates the probabilities of choosing each possible next city using a combination of pheromone levels and distances, and selects a city randomly based on these probabilities.
+- **selectNext():** This function is used by the ants to select the next city to visit based on the pheromone levels and the distances in the `graph` array. It calculates the probabilities of choosing each possible next city using a combination of pheromone levels and distances, and selects a city randomly based on these probabilities.
 
 - **Main Loop:** The main part of the code is the outer loop that iterates over a fixed number of ants (`kAnt`) to perform the ant colony optimization. Inside the loop, each ant selects the next city to visit using the selectNext() function, updates the pheromone levels in the pheromone array, and keeps track of the total length of the tour. After all ants complete their tours, the best tour (i.e., the one with the shortest total length) is printed to the console. The pheromone levels are also updated by evaporating a certain percentage (`vaporization`) of the existing pheromone and adding a small amount of new pheromone to the edges of the best tour.
   
