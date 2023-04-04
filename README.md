@@ -1,10 +1,10 @@
 # Aco
 
-<br>
+<hr>
 
 Easy implementation of Ant colony optimization algorithms
 
-<br>
+<hr>
 
 ## Introduction 
 
