@@ -6,6 +6,7 @@ Easy implementation of Ant colony optimization algorithms
 
 - [Aco](#aco)
   - [Introduction](#introduction)
+  - [Compile and Run](#compile-and-run)
   - [Code Description](#code-description)
   - [Conclusion](#conclusion)
 
@@ -14,6 +15,19 @@ Easy implementation of Ant colony optimization algorithms
 ## Introduction 
 
 The given code appears to be an implementation of the Ant Colony Optimization (ACO) algorithm for the Traveling Salesman Problem (TSP). The TSP is a classic optimization problem where the goal is to find the shortest possible route that visits a given set of cities and returns to the starting city.
+
+## Compile and Run
+
+To compile and run the program you need to have c++11 installed:
+
+<br>
+
+for install c++11 see the docs:
+
+<br>
+
+[Link](https://isocpp.org/get-started)
+
 
 ## Code Description
 
