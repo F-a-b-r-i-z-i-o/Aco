@@ -20,12 +20,9 @@ The given code appears to be an implementation of the Ant Colony Optimization (A
 
 To compile and run the program you need to have c++11 installed:
 
-<br>
-
-for install c++11 see the docs:
-
 [Docs](https://isocpp.org/get-started)
 
+<br>
 
 ## Code Description
 
