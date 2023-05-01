@@ -66,15 +66,11 @@ The general algorithm is relatively simple and is based on a set of ants, each o
 
 The displacement rule, called the "random proportional transition rule", is mathematically written as follows:
 
-<br>
-
-
 ```math
 
 {\displaystyle p_{ij}^{k}\left(t\right)={\begin{cases}\displaystyle {\frac {\tau _{ij}\left(t\right)^{\alpha }\eta _{ij}^{\beta }}{{\displaystyle \sum _{l\in J_{i}^{k}}}\tau _{il}\left(t\right)^{\alpha }\eta _{il}^{\beta }}},&amp;{\text{con }}j\in J_{i}^{k},\\0,&amp;{\text{con }}j\notin J_{i}^{k},\end{cases}}}
 
 ```
-
 
 where $J_i^k$ Is the list of possible movements of an ant $k$ when it is in a city $i$, $eta_{ij}$ visibility, which is equal to the inverse of distance $d_{i,j}$ between city $i$ and $j$, $\tau_{i,j}(t)$ is the intensity of the track at a given iteration $t$.
 The two main parameters that control the algorithm are $\alpha$ and $\beta$ That control the relative importance of the intensity and visibility of an edge.
