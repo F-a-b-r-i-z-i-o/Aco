@@ -4,6 +4,11 @@
 
 Easy implementation of Ant colony optimization algorithms
 
+- [Aco](#aco)
+  - [Introduction](#introduction)
+  - [Code Description](#code-description)
+  - [Conclusion](#conclusion)
+
 <hr>
 
 ## Introduction 
@@ -16,7 +21,7 @@ Here's a brief overview of the main components of the code:
 
 - **Graph Representation:** The distances between cities are represented using a 2D array `graph` of size `kCities x kCities`, where `kCities` is a constant representing the number of cities in the problem. The entry `graph[i][j]` represents the distance from city i to city j.
 
-- **Pheromone Matrix:** The pheromone levels on the edges of the graph are represented using another 2D array `pheromone` of the same size. The entry `pheromone[i][j]` **represents the amount of pheromone on the edge between city i and city j.
+- **Pheromone Matrix:** The pheromone levels on the edges of the graph are represented using another 2D array `pheromone` of the same size. The entry `pheromone[i][j]` represents the amount of pheromone on the edge between city i and city j.
 
 - **addEdge()** This function is used to add edges to the graph representing the distances between cities. It takes the source city, destination city, and the distance between them as input, and updates the corresponding entries in the `graph` array.
 
