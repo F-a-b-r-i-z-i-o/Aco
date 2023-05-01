@@ -24,9 +24,7 @@ To compile and run the program you need to have c++11 installed:
 
 for install c++11 see the docs:
 
-<br>
-
-[Link](https://isocpp.org/get-started)
+[Docs](https://isocpp.org/get-started)
 
 
 ## Code Description
