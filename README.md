@@ -1,11 +1,13 @@
 # Aco
 
+That proposed is a **easy implementation** of Ant colony optimization algorithms.
+
+<br>
+
 Ant colony algorithms are algorithms inspired by the behavior of ants, or other species forming a superorganism, which are a part of metaheuristic optimization.
 The idea arose from observing the exploitation of food resources by ants. In fact, the latter, although limited to the cognitive abilities of a single ant, are collectively able to find the shortest path between a food source and the ant farm.
 
 <hr>
-
-Easy implementation of Ant colony optimization algorithms
 
 - [Aco](#aco)
   - [Introduction](#introduction)
